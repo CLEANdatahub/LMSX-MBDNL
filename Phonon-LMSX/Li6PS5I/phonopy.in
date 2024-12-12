@@ -1,0 +1,42 @@
+# configfile written at 2022/02/15 15:09:59
+
+[phonopy]
+supercell_matrix:              [1, 1, 1]
+displacement:                  0.01
+is_diagonal:                   False
+is_plusminus:                  auto
+symprec:                       1e-05
+q_mesh:                        [10, 10, 10]
+workdir:                       phonopy
+
+[machine]
+basissetloc:                   /work/projects/tcp/software/aims/aimsfiles/species_defaults
+aims_command:                  /home/users/sbanerjee/script/run_aims.sh
+
+[files]
+geometry:                      geometry.in
+
+[calculator]
+name:                          aims
+workdir:                       /mnt/irisgpfs/users/sbanerjee/argyrodites/phonon/lpsi/121_sc/k-point-3/phonopy
+
+[calculator.parameters]
+xc:                            hse06 0.11
+hse_unit:                      B
+hybrid_xc_coeff:               0.25
+many_body_dispersion_nl:       beta=0.8
+k_grid:                        [2, 2, 2]
+sc_accuracy_rho:               1e-06
+relativistic:                  atomic_zora scalar
+output_level:                  MD_light
+compute_forces:                True
+use_pimd_wrapper:              ('localhost', 12346)
+
+[calculator.kpoints]
+density:                       3.5
+
+[calculator.basissets]
+default:                       light
+
+[calculator.socketio]
+port:                          12345
