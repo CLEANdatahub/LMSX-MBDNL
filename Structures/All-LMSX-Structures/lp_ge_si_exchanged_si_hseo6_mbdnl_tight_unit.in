@@ -1,0 +1,69 @@
+# 
+# This is the geometry file that corresponds to the current relaxation step.
+# If you do not want this file to be written, set the "write_restart_geometry" flag to .false.
+#  aims_uuid : 81AA78DF-8EE3-4506-AA49-9126902ABD31                                
+# 
+lattice_vector     12.39574017     -0.02431606     -0.04086075
+lattice_vector     -0.06163039      7.06147901     -0.01874023
+lattice_vector     -4.18008256     -0.00430341     11.69516618
+atom_frac       0.98135794      0.11611531      0.36597069 Li
+atom_frac       0.97934781      0.80589003      0.89016933 Li
+atom_frac       0.48590686      0.83093030      0.38437559 Li
+atom_frac       0.50102442      0.17189367      0.86403745 Li
+atom_frac       0.75392430     -0.01662973      0.89056117 Li
+atom_frac       0.73437418      1.06217905      0.38398654 Li
+atom_frac       0.29710336      0.57257568      0.86411658 Li
+atom_frac       0.31486209      0.46217984      0.39755355 Li
+atom_frac       0.82715523      0.55480746      0.38621926 Li
+atom_frac       0.82944344      0.47294035      0.89437634 Li
+atom_frac       0.18829902     -0.10515214      0.38681200 Li
+atom_frac       0.19231339      1.04051694      0.86530622 Li
+atom_frac       0.68508136      0.61227895     -0.00239574 Li
+atom_frac       0.73857076      0.26928779      0.57522124 Li
+atom_frac       0.18958668      0.26642271      0.07938541 Li
+atom_frac       0.28184121      0.74269120      0.62930963 Li
+atom_frac       0.99018967      1.00514232      0.10222490 Li
+atom_frac       0.98670845     -0.05844433      0.55026068 Li
+atom_frac       0.51634534      0.43560715      0.20566207 Li
+atom_frac       0.49905437      0.55705923      0.62687874 Li
+atom_frac       0.98650028      0.40986271      0.66831161 Li
+atom_frac       0.99930102      0.59430371      0.19514910 Li
+atom_frac       0.48679013      1.01307089      0.58777598 Li
+atom_frac       0.49800735     -0.07498964      0.06822203 Li
+atom_frac       0.05343052      0.47890587      0.46841004 Li
+atom_frac       0.82511260      0.79762714      0.19590409 Li
+atom_frac       0.75335965      0.26605169      0.12923332 Ge
+atom_frac       0.24612708      0.24052832      0.61931387 Ge
+atom_frac       0.75624138      0.75368985      0.62828260 P
+atom_frac       0.24841765      0.75064177      0.13166114 P
+atom_frac       0.69911741      0.99267189      0.68394186 S
+atom_frac       0.68109038      0.01677952      0.18527480 S
+atom_frac       0.17609198      0.49464848      0.67690356 S
+atom_frac       0.19194554      0.52322486      0.19859042 S
+atom_frac       0.69293165      0.52868199      0.18727944 S
+atom_frac       0.70222831      0.51954100      0.69339611 S
+atom_frac       0.19629128      0.98797008      0.19191380 S
+atom_frac       0.18329462     -0.01413839      0.68031241 S
+atom_frac       0.94039543      0.26687378      0.18855495 S
+atom_frac       0.93113810      0.74501726      0.68637159 S
+atom_frac       0.42361705      0.74322729      0.18457930 S
+atom_frac       0.43370017      0.26949341      0.67887318 S
+atom_frac       0.69547003      0.74918182      0.45358152 S
+atom_frac       0.69008317      0.28060643      0.93884685 S
+atom_frac       0.17924948      0.24221999      0.43088607 S
+atom_frac       0.18369459      0.74005428      0.95596522 S
+atom_frac       0.88889257      0.25820774      0.49204600 S
+atom_frac       0.86970039      0.75152067      1.01302867 S
+atom_frac       0.37266005      0.75392335      0.49515108 S
+atom_frac       0.98854952      0.76904140      0.36731773 S
+atom_frac       1.00026413      0.22155172      0.88323048 I
+atom_frac       0.51623511      0.23865756      0.39399272 I
+atom_frac       0.49095059      0.77593382      0.85859288 I
+atom_frac       0.37459340      0.25880661      1.00232271 I
+# 
+# What follows is the current estimated Hessian matrix constructed by the BFGS algorithm.
+# This is NOT the true Hessian matrix of the system.
+# If you do not want this information here, switch it off using the "hessian_to_restart_geometry" keyword.
+# 
+trust_radius             1.6000000238
+hessian_file
